@@ -30,3 +30,25 @@ input{
     text-align: right;
     cursor: pointer;
 }
+input::placeholder{
+    color: #fff;
+}
+button{
+    border: none;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: -8px -8px 15px rgba(255 255 255 0.1);
+}
+.equalBtn{
+    background-color: #fb7c14;
+
+}
+.operator{
+    color: #6dee0a;
+}
